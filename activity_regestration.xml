@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC107"
+    tools:context=".RegestrationActivity">
+
+
+    <EditText
+        android:id="@+id/Regestrationemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email-id"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_email"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_email" />
+    <EditText
+        android:id="@+id/Regestrationpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Enter Password"
+        android:layout_margin="10dp"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:background="@drawable/inputs"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawableLeft="@drawable/ic_lock" />
+
+    <Button
+        android:id="@+id/Regestrationbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:background="#ffff"
+        />
+
+
+
+
+
+
+</LinearLayout>
